@@ -1,0 +1,62 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    padding: auto;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 100px 0 10px 0;
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+.app-wrapper {
+    display: grid;
+    overflow-y: hidden;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 60px calc(100vh - 120px) 60px;
+    grid-template-areas: "hd hd hd hd hd hd"
+                        "mn mn mn mn mn mn"
+                        "ft ft ft ft ft ft";
+}
+.conversation-container {
+    height: calc(100vh - 250px);
+    overflow-y: scroll;
+}
+#chat-view .conversation-container {
+    height: calc(100vh - 160px);
+}
+header {
+    grid-area: hd;
+}
+header.queue {
+    background-color: #6e6e6e;
+}
+header.monitor:not(.chatting) > * {
+    margin-right: auto;
+}
+header.chat.monitor {
+    background-color: #29963a;
+}
+header.fb.monitor {
+    background-color: #0a5d84;
+}
+header.sms.monitor {
+    background-color: #ff542c;
+}
+header.monitor.chatting {
+    justify-content: space-between;
+}
+main {
+    grid-area: mn;
+}
+footer {
+    grid-area: ft;
+}
+.queue-items {
+    height: calc(100vh - 160px);
+    overflow-y: scroll;
+}

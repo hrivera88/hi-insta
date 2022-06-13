@@ -1,0 +1,9 @@
+.header-logo-item img{
+  margin-left: 0%;
+}
+#insta-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}

@@ -1,0 +1,17 @@
+#table{
+    border: solid 1px red;
+    height: 500px;
+    width: 500px;
+    
+  }
+  
+  
+  .modal-dialog {
+    position:fixed;
+    top:auto;
+    right:auto;
+    left:auto;
+    bottom:0;
+    justify-items: flex-end;
+    
+  }
