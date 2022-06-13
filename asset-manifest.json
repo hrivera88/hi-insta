@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hrivera88/hi-insta/static/css/main.48202643.chunk.css",
+    "main.js": "/hrivera88/hi-insta/static/js/main.48f5a573.chunk.js",
+    "main.js.map": "/hrivera88/hi-insta/static/js/main.48f5a573.chunk.js.map",
+    "runtime-main.js": "/hrivera88/hi-insta/static/js/runtime-main.164246b5.js",
+    "runtime-main.js.map": "/hrivera88/hi-insta/static/js/runtime-main.164246b5.js.map",
+    "static/css/2.f4c56af9.chunk.css": "/hrivera88/hi-insta/static/css/2.f4c56af9.chunk.css",
+    "static/js/2.aadba608.chunk.js": "/hrivera88/hi-insta/static/js/2.aadba608.chunk.js",
+    "static/js/2.aadba608.chunk.js.map": "/hrivera88/hi-insta/static/js/2.aadba608.chunk.js.map",
+    "static/js/3.18384c5c.chunk.js": "/hrivera88/hi-insta/static/js/3.18384c5c.chunk.js",
+    "static/js/3.18384c5c.chunk.js.map": "/hrivera88/hi-insta/static/js/3.18384c5c.chunk.js.map",
+    "index.html": "/hrivera88/hi-insta/index.html",
+    "static/css/2.f4c56af9.chunk.css.map": "/hrivera88/hi-insta/static/css/2.f4c56af9.chunk.css.map",
+    "static/css/main.48202643.chunk.css.map": "/hrivera88/hi-insta/static/css/main.48202643.chunk.css.map",
+    "static/js/2.aadba608.chunk.js.LICENSE.txt": "/hrivera88/hi-insta/static/js/2.aadba608.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.164246b5.js",
+    "static/css/2.f4c56af9.chunk.css",
+    "static/js/2.aadba608.chunk.js",
+    "static/css/main.48202643.chunk.css",
+    "static/js/main.48f5a573.chunk.js"
+  ]
+}
